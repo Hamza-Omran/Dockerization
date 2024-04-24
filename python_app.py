@@ -1,8 +1,9 @@
 file=open("random_paragraphs.txt",mode="r")
 
-#I read this ammount because it is the maximum amount to read
-filewords=file.read(1000000)
 
+filewords=file.read()
+#I print this ammount because it is the maximum amount to print
+print(file.read(1000000))
 
 from collections import Counter
 import nltk
